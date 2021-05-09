@@ -11,5 +11,5 @@
 
 
 
-![倒计时](https://github.com/PiKaChu-wcg/digital_circuit/daojishi.png)
+![倒计时](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/daojishi.png)
 
