@@ -1,4 +1,4 @@
-<img src="cover.png" alt="cover" style="zoom:150%;" />
+![封面](cover.png)
 
 
 
