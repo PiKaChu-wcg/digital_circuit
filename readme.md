@@ -1,10 +1,22 @@
-# 数字电路课程设计
+<img src="cover.png" alt="cover" style="zoom:150%;" />
 
-## 设计方案
 
-### 设计思路
 
-#### 设计要求
+
+
+
+
+
+
+
+
+
+
+# 设计方案
+
+## 设计思路
+
+### 设计要求
 
 本方案要求设计一个模拟信号交通灯
 
@@ -15,41 +27,41 @@
 5. 按照每秒减 1 进行显示.
 6. 红绿灯转换时间由设置电路设置,可以实现只有设置.
 
-#### 译码显示
+### 译码显示
 
 采用最简便的DCD_HEX数码管来实现
 
-#### 计数单元
+### 计数单元
 
 计数单元中由于每隔15秒变换一次红绿灯，我采用了两个74LS192级联，采用减法计数，将一端输出作为另一个74LS194的时钟，并采用置数法，在达到0秒的时候立即置数为15。
 
-#### 定时单元
+### 定时单元
 
 在定时单元通过一个555定时器组成一个多谐振荡器来产生周期为1s的时间脉冲，从而为30秒倒计时提供了脉冲输入。这里取$R1=51k\Omega$，$R2=47 k $，$C=10\mu F$。由于震荡周期$T=\approx (R1+R2)C=0.7\times (51k\Omega+2\times 47k)\times 10 \mu F=1.015s$，符合实验要求的。
 
-#### 指示灯模块
+### 指示灯模块
 
 将同步JK触发器,JK端相连,从而构成同步T触发器,在下降沿到来时，将输出翻转,使得红绿二极管变换显示.
 
-### 具体方案
+## 具体方案
 
-#### 倒计时
+### 倒计时
 
-![倒计时](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/daojishi.png)
+![倒计时](daojishi.png)
 
-#### 设置时间
+### 设置时间
 
-![设置模块](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/shezhi.png)
+![设置模块](shezhi.png)
 
-#### 计数脉冲
+### 计数脉冲
 
-![震荡器](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/signal.png)
+![震荡器](signal.png)
 
-#### 汇总
+### 汇总
 
-![汇总](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/all.png)
+![汇总](all.png)
 
-### 需要的元器件
+## 需要的元器件
 
 | 序号  | 类型   | 名称          | 数量 | 作用 |
 | ----- | ------ | --------  | ---- | ---- |
