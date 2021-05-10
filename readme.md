@@ -12,6 +12,21 @@
 
 
 
+@Author:吴昌广
+
+@Github: https://github.com/PiKaChu-wcg/
+
+@Date: 2021-05-08 21:30:22
+
+@LastEditTime: 2021-05-08 22:10:01
+
+@LastEditors: 吴昌广
+
+@FilePath: https://github.com/PiKaChu-wcg/digital_circuit
+
+@Description: 数电课设
+
+
 # 设计方案
 
 ## 设计思路
@@ -59,7 +74,7 @@
 
 ### 汇总
 
-![汇总](img/sall.png)
+![汇总](img/all.png)
 
 ## 需要的元器件
 
