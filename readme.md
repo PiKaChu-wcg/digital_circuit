@@ -39,7 +39,15 @@
 
 #### 设置时间
 
+![设置模块](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/shezhi.png)
+
 #### 计数脉冲
+
+![震荡器](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/signal.png)
+
+#### 汇总
+
+![汇总](https://github.com/PiKaChu-wcg/digital_circuit/blob/main/all.png)
 
 ### 需要的元器件
 
