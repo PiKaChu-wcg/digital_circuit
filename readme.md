@@ -1,4 +1,4 @@
-![封面](cover.png)
+![封面](img/cover.png)
 
 
 
@@ -47,19 +47,19 @@
 
 ### 倒计时
 
-![倒计时](daojishi.png)
+![倒计时](img/daojishi.png)
 
 ### 设置时间
 
-![设置模块](shezhi.png)
+![设置模块](img/shezhi.png)
 
 ### 计数脉冲
 
-![震荡器](signal.png)
+![震荡器](img/signal.png)
 
 ### 汇总
 
-![汇总](all.png)
+![汇总](img/sall.png)
 
 ## 需要的元器件
 
